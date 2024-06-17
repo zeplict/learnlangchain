@@ -55,3 +55,4 @@ print(result.to_messages())
 # 结合三个组件，prompt模板处理，
 chain = prompt_template | model | parser
 print(chain.invoke({"language": "cantonese", "text": "晚上吃什么"}))
+

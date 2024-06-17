@@ -2,7 +2,7 @@ from langchain_openai import ChatOpenAI
 
 model = ChatOpenAI(
     model='deepseek-chat',
-    openai_api_key='sk-f533270f68b1475e9c33f6141808de76',
+    openai_api_key='sk-c18dc9b32dd34b50bbe80c99a9cb9ca1',
     openai_api_base='https://api.deepseek.com',
     max_tokens=1024
 )
